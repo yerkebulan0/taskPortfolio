@@ -1,26 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './first';
-import Second from './second';
-import Third from './third';
-import Fourth from './fourth';
-import Fifth from './fifth';
-import Sixth from './sixth';
-import Footer from './footer';
-
+import "./App.css";
+import PageOne from './Companents/MainPage/mainpage'
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Second/>
-      <Third/>
-      <Fourth/>
-      <Fifth/>
-      <Sixth/>
-      <Footer/>
-      
-    </div>
-  );
+  return <div className="App">
+    <PageOne/>
+  </div>;
 }
 
 export default App;

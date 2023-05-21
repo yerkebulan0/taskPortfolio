@@ -1,9 +1,11 @@
 import "./App.css";
-import PageOne from './Companents/MainPage/mainpage'
+import PageOne from './Companents/TopMenu/topMenu'
+import Middle from "./Companents/middle/middle";
 function App() {
   return <div className="App">
     <PageOne/>
-  </div>;
+    <Middle/>
+  </div>; 
 }
-
+  
 export default App;
